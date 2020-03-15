@@ -1,3 +1,10 @@
+body {
+    font-size: 14px;
+    color: #333;
+    background-color: #fff;
+    letter-spacing: 1px;
+}
+
 .overlay {
     width: 100%;
     height: 100%;
@@ -58,4 +65,112 @@
 
 .profileImage {
     max-width: 100%;
+}
+
+.skillsSection,
+.contactSection {
+    background-color: #66ccff;
+    color: #fff;
+
+}
+
+.skill {
+    text-align: center;
+    margin-left: 10px;
+}
+
+.chart {
+    position: relative;
+    width: 152px;
+    height: 152px;
+    display: inline-block;
+    text-align: center;
+}
+
+.chart canvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.chart .percent {
+    color: #000;
+    line-height: 152px;
+    display: inline-block;
+    font-size: 35px;
+}
+
+.chart .percent:after {
+    content:'%';
+}
+
+.contactButton {
+    color: #fff;
+    padding: 15px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    border: 1px solid #fff;
+    border-radius: 2px;
+}
+
+.contactButton:hover {
+    text-decoration: none;
+    color: #66ccff;
+    background-color: #fff;
+}
+
+.copyrightSection {
+    background-color: #000;
+    color: #fff;
+    padding: 30px 5px;    
+}
+
+.copyrightSection p {
+    margin: 0;
+}
+
+#navigation {
+    background-color: #66ccff;
+    padding: 20px 10px;
+    z-index: 100;
+    width: 100%;
+}
+
+#navigation li {
+    padding: 0 10px;
+}
+
+#navigation li a {
+    color: #fff;
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+    color: #fff;
+}
+
+.navbar-toggler-icon {
+    background: url(../img/icons/menu.png);
+    background-size: 100%;
+}
+
+.fixedNav #navigation {
+    position: fixed;
+    top: 0;
+}
+
+.loader {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+}
+
+.loader .inner {
+    width: 100%;
+    height: 100%;
+    background: url(../img/loader.gif) center center no-repeat;
 }
