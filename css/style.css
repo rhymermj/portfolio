@@ -68,6 +68,18 @@ body {
     max-width: 100%;
 }
 
+.hi {
+    font-size: 37px;
+    font-family: 'Pacifico', cursive;
+    /* font-family: 'Dancing Script', cursive; */
+    /* font-family: 'Indie Flower', cursive; */
+}
+.about-me {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
 .skillsSection,
 .contactSection {
     background-color: #66ccff;
@@ -266,6 +278,9 @@ body {
     content:'%';
 }
 
+.subHeading {
+    font-size: 22px;
+}
 .contactButton {
     color: #fff;
     padding: 15px 20px;
