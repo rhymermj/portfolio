@@ -80,8 +80,7 @@ body {
     font-weight: 400;
 }
 
-.skillsSection,
-.contactSection {
+.skillsSection {
     background-color: #66ccff;
     color: #fff;
 
@@ -224,30 +223,6 @@ body {
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .skill {
     text-align: center;
     margin-left: 10px;
@@ -280,6 +255,13 @@ body {
 
 .subHeading {
     font-size: 22px;
+}
+
+.contactSection {
+    background-color: #66ccff;
+    color: #fff;
+    padding: 50px 0;
+
 }
 .contactButton {
     color: #fff;
@@ -351,3 +333,9 @@ body {
     height: 100%;
     background: url(../img/loader.gif) center center no-repeat;
 }
+
+.link-container {
+    text-align: center;
+    padding-top: 30px;
+  }
+
