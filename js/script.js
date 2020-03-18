@@ -6,14 +6,18 @@ $(window).on("load", function(){
 $(document).ready(function(){
     $('#slides').superslides({
         animation: 'fade',
-        play: 5000,
-//        pagination: false
+        play: 3000,     // play every 5 seconds        
+        // pagination: false  // don't put pagination control on the bottom
     });
 
+    // var typed = new Typed('.element', options); 
     var typed = new Typed(".typed", {
-        strings: ["Medical Laboratory Scientist", "IT Student", "Fitness Enthusiast"], 
-        typeSpeed: 70,
+
+        /* DO NOT CHANGE THIS SPEED */
+        strings: ["Student ^470", "Medical Laboratory Scientist ^90", "Fitness Enthusiast ^520", "Creator ^1500", "Coffee Lover ^800"], 
+        typeSpeed: 60,
         loop: true,
+        showCursor: false,
         startDelay: 1000
     })
 
@@ -67,7 +71,6 @@ $(document).ready(function(){
 		        }
 		    });
 			
-
 		}
 
 
