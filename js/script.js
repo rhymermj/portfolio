@@ -37,7 +37,7 @@ $(document).ready(function(){
             938:{
                 items:4
             },
-            0:{
+            1200:{
                 items:5
             },
             480:{
