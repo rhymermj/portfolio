@@ -23,7 +23,7 @@ $(document).ready(function(){
 
     $('.owl-carousel').owlCarousel({
         loop:true,
-        items: 4,
+        items: 7,
         responsive:{
             0:{
                 items:1
@@ -36,22 +36,30 @@ $(document).ready(function(){
             },
             938:{
                 items:4
-
+            },
+            0:{
+                items:5
+            },
+            480:{
+                items:6
+            },
+            768:{
+                items:7
             }
         }
     });
 
-    // $('.chart').easyPieChart({
-    //     easing: 'easeInOut',
-    //     barColor: '#fff',
-    //     trackColor: false,
-    //     scaleColor: false,
-    //     lineWidth: 4,
-    //     size: 152,
-    //     onStep: function(from, to, percent) {
-    //         $(this.el).find('.percent').text(Math.round(percent));
-    //     }
-    // });
+    $('.chart').easyPieChart({
+        easing: 'easeInOut',
+        barColor: '#fff',
+        trackColor: false,
+        scaleColor: false,
+        lineWidth: 4,
+        size: 152,
+        onStep: function(from, to, percent) {
+            $(this.el).find('.percent').text(Math.round(percent));
+        }
+    });
 
     var skillsTopOffset = $(".skillsSection").offset().top;
 
