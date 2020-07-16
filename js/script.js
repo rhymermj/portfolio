@@ -37,13 +37,13 @@ $(document).ready(function(){
             938:{
                 items:4
             },
-            0:{
+            1108:{
                 items:5
             },
-            480:{
+            1278:{
                 items:6
             },
-            768:{
+            1448:{
                 items:7
             }
         }
